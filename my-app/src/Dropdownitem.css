@@ -1,0 +1,81 @@
+.Dropdownitem__Container {
+  display:flex;
+  justify-content: start;
+  align-items: center;
+  max-height: 51px;
+  /* border: 1px solid black; */
+}
+
+.Dropdownitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px 0px 10px;
+  padding: 5px 10px 15px 7px;
+  text-align: left;
+  min-width:90%;
+  box-sizing: border-box;
+}
+
+/* jab tk container pe hovver rahega tabh tk background color changed rakho */
+
+.Dropdownitem__Container:hover .Dropdownitem{
+  background-color: rgb(217 213 213 / 26%);
+  color: #2874f0;
+}
+ 
+.ChevronRightIcon,.ChevronLeftIcon {
+  width: 25px;
+  height: 25px;
+  color: #2874f0;
+}
+
+
+/* Sidebar ------------------------------------------------------------------------ */
+.Sidemenu {
+  position: absolute;
+  /* z-index: -100; */
+  min-width: 100%;
+  min-height: 100.2%;
+  top: 0;
+  transform: translateX(99.86%);
+  background-color: rgb(255, 255, 255);
+  filter: brightness(99.4%);
+  /* border: 1px solid black; */
+  box-shadow:2px 0.4px 5px 0px #565656;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.Sidemenu__title {
+  color: grey;
+  font-size: 13px;
+  margin: 7px 0px 12px 5px;
+}
+
+.Sidemenu__items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.Sidemenu__item {
+  min-width: 100%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 7px 10px 7px 7px;
+  text-align: left;
+}
+.Sidemenu__item:hover {
+  background-color: grey;
+  background-color: rgb(217 213 213 / 26%);
+  
+  color: #2874f0;
+}
+
+.Sidebar_transform_tranlateX-100 {
+  transform: translateX(-99.86%);
+  
+}

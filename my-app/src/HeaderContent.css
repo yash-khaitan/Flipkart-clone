@@ -1,0 +1,133 @@
+.HeaderContent {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    max-width: 1248px;
+    width: 100%;
+    height: 100%;
+}
+
+.HeaderContent__logoContainer {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 137px;
+}
+
+.HeaderContent__logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderContent__logo>img {
+    width: 75px;
+    display: block;
+    width: 100px;
+}
+
+.HeaderContent__logo>span {
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+    color: white;
+}
+
+.HeaderContent__plus {
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: -1px;
+}
+
+.HeaderContent__logo>span>img {
+    width: 10px;
+}
+
+.HeaderContent__searchbar {
+    display: flex;
+    margin-left: 12px;
+    min-width: 308px;
+    width: 405px;
+    height: 36px;
+}
+
+.HeaderContent__searchbar>input {
+    width: 100%;
+    border: none;
+    padding: 0px 16px;
+    outline: none;
+}
+
+.HeaderContent__searchbar>button {
+    height: 36px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.HeaderContent__searchbar>button>svg {
+    color: #2874f0;
+    font-weight: 800;
+    width: 25px;
+    height: 30px;
+
+}
+
+.HeaderContent__login {
+    min-width: 121px;
+    margin: 0px 20px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.HeaderContent__login>button {
+    height: 32px;
+    width: 100%;
+    padding: 5px 40px;
+    color: #2874f0;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: .1px;
+    line-height: 20px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    cursor:inherit
+}
+
+.HeaderContent__becomeSeller, .HeaderContent__more, .HeaderContent__cart {
+    margin: 0px 20px;
+    max-width: 150px;
+    color: white;
+    font-weight: 500;
+    font-size:16px;
+    line-height: 20px;
+    letter-spacing: .1px;
+    cursor: pointer;
+}
+
+.HeaderContent__more, .HeaderContent__cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ExpandMoreIcon {
+    width:15px;
+    height:17px;
+    transform: rotatez(0deg);
+    transition-duration: .2s;
+}
+
+.HeaderContent__more:hover .ExpandMoreIcon {
+    /* color: black; */
+    transform: rotatez(180deg);
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+
+.HeaderContent__cart > svg {
+    height: 20px;
+    width: 22px;
+    margin-right: 3px;
+}

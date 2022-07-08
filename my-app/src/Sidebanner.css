@@ -1,0 +1,23 @@
+.Sidebanner {
+  flex: 0 0 248px;
+  max-width: 248px;
+  overflow: hidden;
+}
+.Sidebanner > a {
+  cursor: pointer;
+}
+
+.Sidebanner__image__background-padding {
+  background-color: #fff;
+  height: 100%;
+}
+
+.Sidebanner__image {
+  height: calc(100% - 4px);
+  padding: 3px;
+}
+
+.Sidebanner__image > img {
+  height: 100%;
+  max-width: 100%;
+}

@@ -1,0 +1,39 @@
+.Navitem{
+   padding: 12px 8px;
+}
+
+.Navitem:hover {
+    cursor: pointer;
+}
+
+.Navitem:hover .Navitem__expandMoreIcon{
+    transform: rotate(180deg);
+    transition-duration: .2s;
+    color: #2874f0;
+}
+
+.Navitem:hover .Navitem__text {
+    color: #2874f0;
+}
+
+.Navitem__image{
+    width: 64px;
+    height: 64px;
+}
+
+.Navitem__text{
+    display: flex;
+    align-items: flex-end;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.Navitem__expandMoreIcon{
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+    padding-bottom: 1px;
+    color: black;
+    transform: rotate(0deg);
+    transition-duration: .2s;
+}

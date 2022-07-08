@@ -1,0 +1,30 @@
+.Moreitem{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 0.05px solid rgb(227, 223, 223);
+    padding-right: 70px;
+}
+
+.Moreitem:hover {
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+.Moreitem__icon {
+    padding: 10px;
+    color: #2874f0;
+}
+
+.Moreitem__icon > svg {
+    width: 20px;
+    height: 20px;
+}
+/* 
+* {
+    background-color: grey;
+} */
+ 
