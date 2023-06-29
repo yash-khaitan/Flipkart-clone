@@ -2,12 +2,12 @@ import React, { useState, useEffect, useRef } from "react";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import "./Slider.css";
-import Slider__motog42 from "./Image/Slider_motog42.png";
-import Slider__colorful from "./Image/Slider_colorful.png";
-import Slider_bulb from "./Image/Slider_bulb.png";
+import Banners0 from "./Image/Banners0.png";
+import Banners1 from "./Image/Banners1.png";
+import Banners2 from "./Image/Banners2.png";
 
 function Slider() {
-  const sliders = [Slider__motog42, Slider_bulb, Slider__colorful];
+  const sliders = [Banners0, Banners1, Banners2];
 
   const [index, setIndex] = useState(0);
   const timeoutRef = useRef(null);
